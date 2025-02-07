@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common'; // Импортируем CommonModule
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-favorite-city',
-  standalone: true, // Standalone-компонент
-  imports: [CommonModule], // Добавляем поддержку пайпов
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './favorite-city.component.html',
   styleUrls: ['./favorite-city.component.scss']
 })
