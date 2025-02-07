@@ -1,0 +1,8 @@
+<div class="city-card">
+  <h2>{{ city }}</h2>
+  <p>{{ description }}</p>
+  <p>Население: {{ population | number }}</p>
+  <p>Сегодня: {{ today | date:'dd.MM.yyyy' }}</p>
+  
+  <button (click)="changeCity()">Сменить город</button>
+</div>
